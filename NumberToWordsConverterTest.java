@@ -24,7 +24,6 @@ public class NumberToWordsConverterTest {
 	@Test
 	public void test3() {
 		assertEquals("Seventy Four Thousand Five Hundred Twenty One",NumberToWordsConverter.convert("74521"));  
-		
 	}
 	
 	@Test
