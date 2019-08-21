@@ -33,6 +33,10 @@ public class NumberToWordsConverterTest {
 		
 	}
 	
-	
+	@Test
+	public void test5() throws NumberFormatException{
+		assertEquals("",NumberToWordsConverter.convert("aaa"));  
+		
+	}
 	
 }
